@@ -4,6 +4,7 @@ interface ZIF_LOGGABLE_OBJECT
             SYMSG type SYMSG, 
             exception type ref to cx_root, 
             string type string,
+            context       type simple optional,
            end of ty_message,
            tty_message type standard table ty_message empty key.
   
